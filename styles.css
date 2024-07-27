@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding:0;
     margin: 10;
@@ -18,63 +19,88 @@
 h1{
     width: 256px;
     height: 70px;
-    top: 340px;
+    top: 370px;
     left: 79px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 35.36px;
     background-color: #121212;
     color: #ffffff;
     font-family: Arial;
     margin: auto;
-    position: relative;
+    position: absolute;
+
 }
 
+h2{
+    width: 244px;
+    height: 52px;
+    top: 410px;
+    left: 85px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 52px;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial;
+    margin: auto;
+    position: absolute;
+}
 
 body{
     width: 414px;
     height: 896px;
     top: 764px;
     left: 3116px;
+    margin: 0; 
     border-radius: 25px;
     background-color: #121212;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 a{
     background-color: #121212;
     margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
 
 body .boton-Sfree{
     width: 380px;
     height: 54px;
-    top: 517px;
+    top: 518px;
     left: 17px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: #4CAF50;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 21px;
     border-radius: 50px;
     border: 2px solid #4CAF50;
     transition: 0.3s;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 
 .boton-phone{
     width: 380px;
     height: 54px;
-    top: 637px;
+    top: 577px;
     left: 17px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: #121212;
-    text-transform: uppercase;
     color: #fff;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
     border-radius: 50px;
     border: 1px solid #ffffff;
     transition: 0.3s;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 
 .boton-google{
@@ -82,16 +108,17 @@ body .boton-Sfree{
     height: 54px;
     top: 637px;
     left: 17px;
-    padding: 10px 30px;
+    padding: 15px 30px;
+    line-height: 25px;
     background-color: #121212;
-    text-transform: uppercase;
     color: #fff;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 50px;
     border: 1px solid #ffffff;
     transition: 0.3s;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 
 .boton-facebook{
@@ -99,31 +126,32 @@ body .boton-Sfree{
     height: 54px;
     top: 697px;
     left: 17px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: #121212;
-    text-transform: uppercase;
     color: #fff;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 25px;
     border-radius: 50px;
     border: 1px solid #ffffff;
     transition: 0.3s;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
 
 .boton-login{
-    width: 60px;
+    width: 80px;
     height: 52px;
     top: 757px;
-    left: 177px;
+    left: 150px;
     padding: 10px 30px;
     background-color: #121212;
-    text-transform: uppercase;
     color: #fff;
+    font-size: 21px;
     font-weight: bold;
     border-radius: 30px;
     border: 2px solid #121212;
     transition: 0.3s;
     margin: auto;
-    position: relative;
+    position: absolute;
 }
